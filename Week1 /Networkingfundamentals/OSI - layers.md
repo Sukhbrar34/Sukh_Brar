@@ -7,7 +7,7 @@ Purpose: Enables user interaction with network services.
 Examples: HTTP, FTP, DNS, SMTP
 
 📌**What the user sees and interacts with**
-**EXAMPLE**: For example, when you open your web browser and go to www.bank.com, your browser uses the HTTPS protocol, which operates at the Application Layer, to communicate with the bank’s server.
+**EXAMPLE**: For example, when you open your web browser and go to www.xyzbank.com, your browser uses the HTTPS protocol, which operates at the Application Layer, to communicate with the bank’s server.
 This layer manages the data exchange between your browser and the server, making sure you receive the correct webpage.
 When you click on enter to search website, computer gets data ready to transfer to next layer 
 like -|DATA 📄 |
