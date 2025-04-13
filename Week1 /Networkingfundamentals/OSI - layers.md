@@ -1,5 +1,5 @@
 
-**APPLICATION LAYER -7**
+**APPLICATION LAYER -7** /n
 What it does: Interfaces with end-user applications (e.g., browsers, email clients).
 
 Purpose: Enables user interaction with network services.
