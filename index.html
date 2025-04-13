@@ -1,116 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sukh's Cybersecurity Journey</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Reset and base styling */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #0f172a;
-            color: #f1f5f9;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sukh's Cybersecurity Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        header {
-            background-color: #1e293b;
-            padding: 40px 20px;
-            text-align: center;
-        }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
 
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
+    header {
+      background-color: #1e293b;
+      padding: 60px 20px;
+      text-align: center;
+    }
 
-        header p {
-            font-size: 1.2em;
-            color: #cbd5e1;
-        }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
 
-        main {
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
+    header p {
+      font-size: 1.2em;
+      color: #cbd5e1;
+    }
 
-        section {
-            margin-bottom: 40px;
-        }
+    nav {
+      background-color: #1e293b;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-        h2 {
-            color: #38bdf8;
-            border-bottom: 2px solid #334155;
-            padding-bottom: 5px;
-        }
+    nav a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
 
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
+    nav a:hover {
+      color: #38bdf8;
+    }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1e293b;
-            color: #94a3b8;
-            font-size: 0.9em;
-        }
-    </style>
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.8em;
+    }
+
+    p, li {
+      font-size: 1.1em;
+      color: #e2e8f0;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .projects ul {
+      list-style: none;
+      display: grid;
+      gap: 15px;
+    }
+
+    .projects li {
+      background-color: #1e293b;
+      padding: 15px;
+      border-left: 5px solid #38bdf8;
+      transition: transform 0.2s ease;
+    }
+
+    .projects li:hover {
+      transform: translateX(5px);
+    }
+
+    .projects a {
+      text-decoration: none;
+      color: #38bdf8;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #1e293b;
+      color: #94a3b8;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Hey, I'm Sukh</h1>
-        <p>Welcome to my Cybersecurity Learning Journey :)</p>
-    </header>
+  <header>
+    <h1>Hey, I'm Sukh</h1>
+    <p>Welcome to my Cybersecurity Learning Journey</p>
+  </header>
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>I am a Cyber Security student passionate about ethical hacking and digital defense. I’m building this website to document and share my daily learnings, hands-on labs, and personal roadmap as I grow into a cybersecurity professional.</p>
-        </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#why">Why This Site</a>
+    <a href="#topics">Topics</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-        <section>
-            <h2>What I'm Working On</h2>
-            <p>I'm obsessed with cybersecurity and fully dedicated to learning network defense, Linux, threat hunting, and Security+ certification material. This journey is about staying consistent and helping others who are walking the same path.</p>
-        </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Cyber Security student passionate about ethical hacking and digital defense. I’m building this website to document and share my daily learnings, hands-on labs, and personal roadmap as I grow into a cybersecurity professional.</p>
+    </section>
 
-        <section>
-            <h2>Why I Made This</h2>
-            <p>Cybersecurity is not just a degree—it's a lifestyle of learning, ethical hacking, and constant curiosity. I created this space to:
-                <ul>
-                    <li>Stay consistent and accountable</li>
-                    <li>Share notes and resources with others</li>
-                    <li>Track my growth from student to (future) security analyst</li>
-                    <li>Build a public portfolio of my knowledge and skills</li>
-                </ul>
-            </p>
-        </section>
+    <section id="projects" class="projects">
+      <h2>What I'm Working On</h2>
+      <ul>
+        <li>Firewall Rules & <a href="https://github.com/YOUR_USERNAME/YOUR_FIREWALL_PROJECT" target="_blank">iptables Lab</a></li>
+        <li>Network Packet Capture using <a href="https://github.com/YOUR_USERNAME/YOUR_WIRESHARK_PROJECT" target="_blank">Wireshark</a></li>
+        <li>Linux CLI Practice & Bash Scripts</li>
+        <li>Security+ Certification Prep</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>What's Inside?</h2>
-            <p>This site is updated weekly with bite-sized notes, lab walkthroughs, and personal insights into topics like:</p>
-            <ul>
-                <li>Networking & Protocols</li>
-                <li>Linux & Kali</li>
-                <li>Security+ Certification</li>
-                <li>Threat Detection & Incident Response</li>
-                <li>Blue Team & Red Team Skills</li>
-            </ul>
-        </section>
+    <section id="why">
+      <h2>Why I Made This</h2>
+      <p>This site is my personal mission to:</p>
+      <ul>
+        <li>Stay consistent and accountable</li>
+        <li>Share notes and resources with others</li>
+        <li>Track my growth from student to (future) Security Analyst</li>
+        <li>Build a public portfolio of my knowledge and skills</li>
+      </ul>
+    </section>
 
-        <section>
-            <h2>Connect With Me</h2>
-            <p>If you're on a similar journey or just want to talk tech, feel free to reach out. This isn't just a notes site—it's a shared space for growing together in cybersecurity!</p>
-        </section>
-    </main>
+    <section id="topics">
+      <h2>What's Inside?</h2>
+      <p>This site is updated weekly with notes, lab walkthroughs, and personal insights into:</p>
+      <ul>
+        <li>Networking & Protocols</li>
+        <li>Linux & Kali Linux</li>
+        <li>Security+ Certification Topics</li>
+        <li>Threat Detection & Incident Response</li>
+        <li>Blue Team & Red Team Skills</li>
+      </ul>
+    </section>
 
-    <footer>
-        &copy; 2025 Sukh’s Cybersecurity Journal. Powered by GitHub Pages.
-    </footer>
+    <section id="contact">
+      <h2>Connect With Me</h2>
+      <p>If you're on a similar journey or just want to talk tech, feel free to reach out.</p>
+      <ul>
+        <li>GitHub: <a href="https://github.com/Sukhbrar34" target="_blank">Sukhbrar34</a></li>
+        <li>Email: rehmatbrarz27@gmail.com</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Sukh’s Cybersecurity Journal | Powered by GitHub Pages
+  </footer>
 
 </body>
 </html>
