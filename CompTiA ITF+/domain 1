@@ -22,7 +22,7 @@ b.HEXADECIMAL -Binary is great for machines, but too long and confusing for us.
 
 💡 Also called Base-16
 Digits: 0–9 + Letters: A–F
-One hex digit = 4 binary digits (nibble 🍪)
+One hex digit = 4 binary digits (🍪)
 
 🎯 Real World Example:
 🖥️ MAC Address → 00:1B:63:86:4E:5F
@@ -88,9 +88,9 @@ Covers all languages, symbols, emojis, and more! 😎
 
   SCII vs Unicode — Quick Comparison:
 
-Feature	          ASCII	            Unicode
-Age	              1960s	            1990s
+Feature	          ASCII	              Unicode
+Age	              1960s	              1990s
 Characters	      128	              1.4 million (and growing!)
 Language Support	English Only	    All languages, emojis, symbols
-Size	           7 bits (1 byte)	  Variable (UTF-8, UTF-16, UTF-32)
-Example	         A = 65	            😀 = U+1F600
+Size	           7 bits (1 byte)	    Variable (UTF-8, UTF-16, UTF-32)
+Example	         A = 65	              😀 = U+1F600
