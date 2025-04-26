@@ -1,0 +1,96 @@
+🚀 1.1 Compare and Contrast Notational Systems
+Hey there! 👋
+I'm walking you through my learnings and sharing what clicked for me — in a chill, fun way! 💻🎉
+
+1.0 IT Concepts and Terminology
+1.1 Compare and Contrast notational systems
+a.Binary                        c.Decimal
+b.Hexadecimal                   d.Data representation - ASCII - Unicode
+
+a. BINARY-Think of binary as the native language of your computer.
+          It's just two numbers: 0 and 1. That’s it.
+          Every click, tap, or key press gets turned into binary behind the scenes. 🤖
+
+💡 Also called Base-2
+   Only two digits → 0 and 1
+✨ Example: 1001, 001010, 111111
+Everything (text, images, music) is broken down into these combinations!
+
+
+b.HEXADECIMAL -Binary is great for machines, but too long and confusing for us.
+               Hex makes it shorter and easier on the eyes!
+
+💡 Also called Base-16
+Digits: 0–9 + Letters: A–F
+One hex digit = 4 binary digits (nibble 🍪)
+
+🎯 Real World Example:
+🖥️ MAC Address → 00:1B:63:86:4E:5F
+
+MAC = Media Access Control address, a unique hardware ID for your network device.
+
+c. Decimal — Our Everyday Number System
+This is what we use every day — counting, prices, dates…
+Computers need to convert this into binary to actually understand it.
+
+💡 Known as Base-10
+Digits: 0 – 9
+✨ Examples: 7, 34, 567, 2025
+
+  
+Data Representation Systems — How Computers Really Understand Keyboards!
+    
+Ever wondered what happens inside your computer when you press a key?
+Guess what — your computer doesn't actually know what "A", "B", or "C" means like we do. 🤔
+It speaks a different language — the language of 1s and 0s — binary!
+
+-All sybmols/numbers/letterss on keyboard are encoded
+    
+-You press a key (like A on your keyboard).
+
+-The keyboard sends a binary code to your computer.
+
+-The computer decodes the binary into something we can understand (like showing A on your screen).
+
+There are two encoding standards
+    -ASCII
+    -Unicode
+
+ASCII = American Standard Code for Information Interchange
+
+Created in the 1960s (old but gold!)
+
+It's a character encoding standard:
+→ Maps letters, numbers, and symbols to numbers.
+
+✨ Example:
+
+Character	ASCII Number	Binary
+A	65	01000001
+B	66	01000010
+!	33	00100001
+5	53	00110101
+📚 ASCII uses 7 bits or 8 bits for extended encoding, so it can represent 128 characters (from 0 to 127).
+✅ Great for English letters and basic symbols.
+❌ Not enough for other languages like Chinese, Arabic, emojis, etc.
+
+
+UNICODE
+
+What is Unicode?
+Unicode = Universal Code for everything you can type!
+
+A super upgraded version of ASCII.
+
+Covers all languages, symbols, emojis, and more! 😎
+
+✨ Unicode can represent over 143,000 characters across multiple writing systems.
+
+  SCII vs Unicode — Quick Comparison:
+
+Feature	          ASCII	            Unicode
+Age	              1960s	            1990s
+Characters	      128	              1.4 million (and growing!)
+Language Support	English Only	    All languages, emojis, symbols
+Size	           7 bits (1 byte)	  Variable (UTF-8, UTF-16, UTF-32)
+Example	         A = 65	            😀 = U+1F600
