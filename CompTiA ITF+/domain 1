@@ -33,12 +33,12 @@ c. Decimal — Our Everyday Number System
 This is what we use every day — counting, prices, dates…
 Computers need to convert this into binary to actually understand it.
 
-💡 Known as Base-10
-Digits: 0 – 9
+💡 Known as Base-10 (10 possible combination of numbers)
+   Digits: 0 – 9
 ✨ Examples: 7, 34, 567, 2025
 
   
-Data Representation Systems — How Computers Really Understand Keyboards!
+DATA REPRESENTATION SYSTEMS — How Computers Really Understand Keyboards!
     
 Ever wondered what happens inside your computer when you press a key?
 Guess what — your computer doesn't actually know what "A", "B", or "C" means like we do. 🤔
@@ -66,10 +66,10 @@ It's a character encoding standard:
 ✨ Example:
 
 Character	ASCII Number	Binary
-A	65	01000001
-B	66	01000010
-!	33	00100001
-5	53	00110101
+A	65	         01000001
+B	66	         01000010
+!	33	         00100001
+5	53	         00110101
 📚 ASCII uses 7 bits or 8 bits for extended encoding, so it can represent 128 characters (from 0 to 127).
 ✅ Great for English letters and basic symbols.
 ❌ Not enough for other languages like Chinese, Arabic, emojis, etc.
@@ -86,11 +86,11 @@ Covers all languages, symbols, emojis, and more! 😎
 
 ✨ Unicode can represent over 143,000 characters across multiple writing systems.
 
-  SCII vs Unicode — Quick Comparison:
+  ASCII vs Unicode — Quick Comparison:
 
-Feature	          ASCII	              Unicode
-Age	              1960s	              1990s
-Characters	      128	              1.4 million (and growing!)
-Language Support	English Only	    All languages, emojis, symbols
-Size	           7 bits (1 byte)	    Variable (UTF-8, UTF-16, UTF-32)
-Example	         A = 65	              😀 = U+1F600
+Feature	                ASCII	              Unicode
+Age	                1960s	              1990s
+Characters	      128	                        1.4 million (and growing!)
+Language Support	      English Only	              All languages, emojis, symbols
+Size	                7 bits (1 byte)	    Variable (UTF-8, UTF-16, UTF-32)
+Example	                A = 65	              😀 = U+1F600
